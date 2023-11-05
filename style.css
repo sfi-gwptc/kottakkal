@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.one{
+  background-image: url(img/bgc1.jpg);
+  filter: brightness(1.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:75vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+h1{
+  font-size:4em;
+  color: whitesmoke;
+  font-family:'Times New Roman', Times, serif;
+  position: absolute;
+}
+h1 span{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.study{
+  font-size:15px;
+  color: white; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing:2px;
+  color: black;
+  padding: 0 10px;
+  background-color:rgba(255, 255, 255, 0.522);
+  animation: color 15s ease-in-out infinite;
+}
+.fixed-box{
+  width:3vw;
+  height:auto;
+  background-color:black;
+  padding:1% 1%;
+  opacity:30%;
+  border-radius:1px;
+  position:absolute;
+  left:95%;
+  top:56vh;
+  overflow: hidden;
+}
+.fixed-box:hover{
+  opacity:50%;
+}
+.fa-instagram{
+  color: white;
+  padding-bottom:5px;
+
+}
+.fa-whatsapp{
+  color: white;
+  padding-bottom:5px;
+}
+.fa-comments{
+  color: white;
+}
+#two{
+  background-image: url(img/bgc2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(1.2);
+  width: 100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drop-maincontainer{
+  width:100%;
+  height:70vh;
+  background-color:none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown {
+  overflow: hidden;
+  text-align: center;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: black;
+  width:40vw;
+  height:10vh;
+  border-radius:30px;
+  background-color: rgba(255, 0, 0, 0.516);
+  font-family: inherit;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.dropdown:hover .dropbtn {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.dropdown-content {
+  display: none;
+  position:relative;
+  margin-left:12%;
+  margin-top:.1%;
+  background-color: #fff;
+  width:30vw;
+  height:12vh;
+  z-index:1;
+  border-radius:21px;
+  animation: scale .8s;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  border-radius:50px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.three{
+  background-color: rgb(243, 243, 243);
+  width: 100%;
+  height: 18vh;
+}
+h2{
+  padding-top: 2%;
+  text-align: center;
+  color: red;
+  font-size:25px;
+}
+h4{
+  text-align: center;
+  font-size:12px;
+}
+
+/* Quotes animation start */
+@keyframes color {
+  0%{
+    background-color: #fff;
+    color: #000;
+  }
+  25%{
+    background-color:#000;
+    color: #fff;
+  }
+  50%{
+    background-color: #fff;
+    color: #000;
+  }
+  75%{
+    background-color: #000;
+    color: #fff;
+  }
+  100%{
+    background-color: #fff;
+    color: #000;
+  }
+}
+/* Quotes animation end */
+
+
+/* dropdown animation start */
+@keyframes scale {
+  0%{
+    transform: scale(100%);
+  }
+  50%{
+    transform: scale(105%);
+  }
+  100%{
+    transform: scale(100%);
+  }
+}
+/* dropdowm animation end */
+
+
+@media (max-width:442px) {
+  .one{
+    height:55vh;
+  }
+  #two{
+    height:70vh;
+  }
+  .three{
+    height:15vh;
+  }
+  .study{
+    font-size:10px;
+  }
+  .dropdown-content{
+    margin-left:26%;
+  }
+  .dropdown .dropbtn {
+    width:25vh;
+  }
+  .fixed-box{
+    top:41vh;
+    left:90%;
+    width:4vh;
+  }
+  h1{
+    font-size:3em;
+  }
+}
