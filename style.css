@@ -204,13 +204,13 @@ h4{
   .study{
     font-size:10px;
   }
-  .dropdown-content{
-    width:54vw;
-    border-radius: 5px;
-  }
   .dropdown .dropbtn {
     width:32vh;
     overflow:visible;
+  }
+  .dropdown-content{
+    width:54vw;
+    border-radius: 5px;
   }
   .fixed-box{
     top:41vh;
