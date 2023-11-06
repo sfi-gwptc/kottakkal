@@ -208,12 +208,6 @@ h4{
     width:32vh;
     overflow:visible;
   }
-  .dropdown-content{
-    width:54vw;
-    margin-left: 20px;
-    border-radius: 5px;
-    
-  }
   .fixed-box{
     top:41vh;
     left:90%;
@@ -221,5 +215,10 @@ h4{
   }
   h1{
     font-size:3em;
+  }
+    .dropdown-content{
+    margin-left: 20px;
+    width:54vw;
+    border-radius: 5px;
   }
 }
