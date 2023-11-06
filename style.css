@@ -192,17 +192,11 @@ h4{
 
 
 @media (max-width:442px) {
-  .one{
+    .one{
     height:55vh;
   }
-  #two{
+    #two{
     height:70vh;
-  }
-    .three{
-    height: 9vh;
-  }    
-    h2{
-    font-size:22px;
   }
     .study{
     font-size:10px;
@@ -218,6 +212,12 @@ h4{
   }
     h1{
     font-size:3em;
+  }
+     .three{
+    height: 9vh;
+  }    
+    h2{
+    font-size: 22px;
   }
     .dropdown-content{
     margin-left: 20px;
