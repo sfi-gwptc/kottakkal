@@ -205,7 +205,9 @@ h4{
     font-size:10px;
   }
   .dropdown-content{
-    margin-left:26%;
+    margin-left: 7%;
+    width: 48vw;
+    border-radius: 5px;
   }
   .dropdown .dropbtn {
     width:25vh;
