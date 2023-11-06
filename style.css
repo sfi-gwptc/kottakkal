@@ -209,9 +209,9 @@ h4{
     overflow:visible;
   }
   .dropdown-content{
-    margin-left:18px;
     width:54vw;
     border-radius: 5px;
+    margin-left: 18px;
   }
   .fixed-box{
     top:41vh;
