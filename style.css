@@ -205,12 +205,12 @@ h4{
     font-size:10px;
   }
   .dropdown-content{
-    margin-left:-.1px;
+    margin-left:32.9px;
     width:54vw;
     border-radius: 5px;
   }
   .dropdown .dropbtn {
-    width:25vh;
+    width:32vh;
     overflow:visible;
   }
   .fixed-box{
