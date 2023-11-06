@@ -209,6 +209,7 @@ h4{
     overflow:visible;
   }
   .dropdown-content{
+    margin-left:0px;
     width:54vw;
     border-radius: 5px;
   }
