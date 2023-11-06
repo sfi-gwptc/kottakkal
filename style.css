@@ -198,33 +198,30 @@ h4{
   #two{
     height:70vh;
   }
-  .three{
-    height:15vh;
+    .three{
+    height: 9vh;
   }
-  .study{
+    h2{
+    font-size: 21px;
+  }
+    .study{
     font-size:10px;
   }
-  .dropdown .dropbtn {
+    .dropdown .dropbtn {
     width:32vh;
     overflow:visible;
   }
-  .fixed-box{
+    .fixed-box{
     top:41vh;
     left:90%;
     width:4vh;
   }
-  h1{
+    h1{
     font-size:3em;
   }
     .dropdown-content{
     margin-left: 20px;
     width:54vw;
     border-radius: 5px;
-  }
-  .three{
-  height: 9vh;
-  }
-  h2{
-  font-size: 21px;
   }
 }
