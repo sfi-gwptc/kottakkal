@@ -221,4 +221,10 @@ h4{
     width:54vw;
     border-radius: 5px;
   }
+  .three{
+  height: 9vh;
+  }
+  h2{
+  font-size: 21px;
+  }
 }
