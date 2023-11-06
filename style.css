@@ -210,8 +210,9 @@ h4{
   }
   .dropdown-content{
     width:54vw;
+    margin-left: 20px;
     border-radius: 5px;
-    margin-left: 21px;
+    
   }
   .fixed-box{
     top:41vh;
