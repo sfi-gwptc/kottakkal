@@ -211,6 +211,7 @@ h4{
   }
   .dropdown .dropbtn {
     width:25vh;
+    overflow:visible;
   }
   .fixed-box{
     top:41vh;
